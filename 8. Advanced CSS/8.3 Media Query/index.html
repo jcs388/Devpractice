@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)file:///C:/Users/jcs388/Documents/Web%20Dev%20Bootcamp/8.%20Advanced%20CSS/8.3%20Media%20Query/solution.html -->
+<html lang="en"><!-- 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px&hairsp;—&hairsp;480px
+[powderblue] iPads and Tablets: 481px&hairsp;—&hairsp;1200px
+[limegreen] Laptops: 1201px&hairsp;—&hairsp;1600px
+[seagreen] Desktops: 1601px&hairsp;and more
+--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <title>Document</title>
+  <style>
+    body {
+      background-color: aquamarine;
+    }
+    @media (max-width: 480px) {
+        body {
+            background-color: lightsalmon;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+        body {
+            background-color: powderblue;
+        }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1600px) {
+        body {
+            background-color: limegreen;
+        }
+    }
+
+    @media (min-width: 1601px) and (max-width: 1900px) {
+        body {
+            background-color: seagreen;
+        }
+    }
+  </style>
+</head>
+
+<body>
+
+
+</body></html>
