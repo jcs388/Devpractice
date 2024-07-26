@@ -2,15 +2,15 @@ import { createRoot } from 'react-dom/client';
 // import App from './App.jsx';
 import './index.css';
 
-const fName = 'Jaden';
-const lName = 'Soroka';
+const name = 'Jaden Soroka';
+const year = new Date().getFullYear();
 
 const root = createRoot(document.getElementById('root'));
 
 root.render(
     <div>
-        <h1>Hello {fName} {lName}</h1>
-        <p>Your lucky number is {Math.floor(Math.random() * 9)}</p>
+        <p>Created by {name}</p>
+        <p>Copyright @ {year}</p>
     </div>
 );
 
