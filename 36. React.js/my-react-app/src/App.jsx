@@ -1,19 +1,14 @@
-import { useState } from 'react';
+
 
 export default function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
-      <Counter />
+      <h1>My favorite foods</h1>
+      <ul>
+        <li>Steak</li>
+        <li>Lobster</li>
+        <li>Jelly Beans</li>
+      </ul>
     </>
-  );
-}
-
-function Counter() {
-  const [count, setCount] = useState(0);
-  return (
-    <button onClick={() => setCount(count + 1)}>
-      You clicked me {count} times
-    </button>
   );
 }
